@@ -6,10 +6,13 @@
     margin: 20px;
     margin-bottom: 40px;
 }
-.card-text{
+.card-body {
     text-align: center;
     font-weight: bold;
+    border-top: solid darkblue 1px;
+    margin-top: 5px;
 }
+
 .container{
     margin-bottom: 20px;
 }
