@@ -1,42 +1,132 @@
+nav.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background: rgba(21, 21, 133, 0.75);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 0px 10px white;
+    z-index: 1;
+}
+
+.parallax {
+    background-image: url("./assets/blueflowers.jpg");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image {
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 150px;
+    box-shadow: 0px 0px 10px white;
+}
 
 .card-header{
     color:white;
-}
-.card{
-    margin: 20px;
-    margin-bottom: 40px;
-    box-shadow: 15px 15px 5px -5px hsla(0, 0%, 60.8%, .45);
-}
-.card-body {
-    text-align: center;
+    padding: 15px;
     font-weight: bold;
-    border-top: solid darkblue 1px;
+    font-size: larger;
+    background: rgba(21, 21, 133, 0.8);
+}
+
+.card-header:first-child {
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card{
+    margin-bottom: 100px;
+    /* box-shadow: 15px 15px 5px -5px hsla(0, 0%, 60.8%, .45); */
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+
+.card-body {
+    /* border-top: solid darkblue 1px; */
     margin-top: 5px;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    background-color: white;
 }
 
-.container{
-    margin-bottom: 20px;
-}
-
-.portfolio .card{
-    max-width: 286px;
-}
-
-.portfolio img{
+/* .container header{
     width: 100%;
+    margin-bottom: 20px;
+    background-color: darkblue; 
+} */
+
+h1 {
+    color: white;
 }
 
 .pageFooter{
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     right: 0;
-    background-color: darkblue;
     text-align: center;
     color: white;
     font-weight: bold;
+    padding: 10px;
+    border-top: 1px solid white;
+    box-shadow: 0px 0px 10px white;
+    background: rgba(21, 21, 133, 0.75);
 }
 
-main summary {
+section {
     cursor: default;
+}
+
+.pageBottom {
+    margin-bottom: 150px;
+}
+
+.glowBox {
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px white;
+}
+
+.bio {
+    text-align: center;
+    font-weight: bold;
+    width: 850px;
+}
+
+.quote {
+    text-align: center;
+    font-weight: bold;
+    width: 850px;
+}
+
+.portfolio-card {
+    max-width: 286px;
+    padding: 1px;
+}
+
+.portfolio-card .card-header {
+    color:white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: larger;
+    background: rgba(21, 21, 133, 1);
+}
+
+.portfolio-card img{
+    width: 100%;
 }
