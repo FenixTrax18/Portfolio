@@ -52,7 +52,7 @@ nav.navbar {
     border: none;
     margin-left: auto;
     margin-right: auto;
-    width: 850px;
+    max-width: 850px;
 }
 
 .card-body {
@@ -109,9 +109,26 @@ section {
     width: 70%;
 }
 
+.portfolio-header {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 0px 10px white;
+    padding: 5px;
+    margin-bottom: 100px;
+    background: rgba(21, 21, 133, 0.75);
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
 .portfolio-card {
     max-width: 350px;
     padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio-card .card-header {
@@ -119,7 +136,7 @@ section {
     padding: 15px;
     font-weight: bold;
     font-size: larger;
-    background: rgba(21, 21, 133, 1);
+    background: rgba(21, 21, 133, .75);
 }
 
 .portfolio-card img{
