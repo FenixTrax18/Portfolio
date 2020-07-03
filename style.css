@@ -161,14 +161,6 @@ section {
 
 }
 
-a.card-text {
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px darkblue;
-    padding: 10px;
-    display: inline-block;
-    color: darkblue;
-}
-
 .card-body.glowBox {
     padding: 15px;
 }
@@ -177,7 +169,16 @@ a.card-text {
     float: right;
 }
 
+a.card-text {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px darkblue;
+    padding: 10px;
+    display: inline-block;
+    color: darkblue;
+}
+
 a.card-text:hover {
     text-decoration: none;
     box-shadow: 0px 0px 5px darkblue;
+    background: rgba(255, 182, 0, .8);
 }
