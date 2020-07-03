@@ -63,6 +63,22 @@ nav.navbar {
     background-color: white;
 }
 
+.portfolio-card .card-body {
+    border-radius: 0 !important;
+}
+
+.card-footer {
+    /* border-top: solid darkblue 1px; */
+    margin-top: 5px;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    background-color: white;
+}
+
+.card-footer:last-child {
+    border-radius: 10px;
+}
+
 /* .container header{
     width: 100%;
     margin-bottom: 20px;
@@ -141,4 +157,27 @@ section {
 
 .portfolio-card img{
     width: 100%;
+    box-shadow: 3px 3px 10px darkblue;
+
+}
+
+a.card-text {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px darkblue;
+    padding: 10px;
+    display: inline-block;
+    color: darkblue;
+}
+
+.card-body.glowBox {
+    padding: 15px;
+}
+
+.card-footer a:last-child {
+    float: right;
+}
+
+a.card-text:hover {
+    text-decoration: none;
+    box-shadow: 0px 0px 5px darkblue;
 }
