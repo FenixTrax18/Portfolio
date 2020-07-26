@@ -38,6 +38,8 @@ nav.navbar {
     font-weight: bold;
     font-size: larger;
     background: rgba(21, 21, 133, 0.8);
+    text-align: center;
+
 }
 
 .card-header:first-child {
